@@ -168,7 +168,9 @@ nav.navbar {
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-
+.mainimg{
+	width:80px;
+}
 nav.navbar .navbar-nav li.active a:not(.btn) {
 	color: #00a8ff !important;
 }
@@ -264,7 +266,7 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 }
 
 .navbar {
-	top: 50px;
+	top: 25px;
 }
 
 .container {
@@ -1192,6 +1194,9 @@ footer .social-footer li:hover a {
 	.pricing {
 		margin-bottom: 30px;
 	}
+	.mainimg{
+		width:60px;
+	}
 	.pricings .pricing .info-icon {
 		display: none;
 	}
@@ -1229,7 +1234,16 @@ footer .social-footer li:hover a {
 
 @media(max-width: 400px) {
 	header .typed-cursor {
-		display: none;
+		font-size: 70px;
+		display: inline-block;
+		margin: 0 10px;
+		color: #00a8ff;
+		-webkit-animation-name: flash;
+		animation-name: flash;
+		-webkit-animation-duration: 1s;
+		animation-duration: 1s;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
 	}
 	.pricings .pricing .box-second {
 		padding-top: 0;
